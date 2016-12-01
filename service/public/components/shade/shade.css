@@ -1,0 +1,39 @@
+/*
+ * 此文件是蒙层组件样式
+ * 
+ * 
+ */
+
+.qf-modal-bg{
+	width: 100%;
+	height: 100%;
+	background-color: rgba( 0, 0, 0, .25 );
+	position: fixed;
+	left: 0;
+	top: 0;
+	display: none;
+}
+
+.qf-modal-bg.show{
+	display: block;
+}
+
+.qf-modal-bg.hide{
+	display: none;
+}
+	
+
+.qf-modal-content{
+	position: fixed;
+	left: 50%;
+	top: 50%;
+	/*width: 
+	height:
+	margin-left: 
+	margin-top:*/
+	
+}
+
+/*.qf-shade-close{}*/
+
+

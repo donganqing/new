@@ -1,0 +1,41 @@
+*{
+	margin:0;
+	padding: 0;
+}
+
+.submit{
+	position: absolute;
+	left: 49%;
+	top: 85%;
+	color: plum;
+	text-decoration: none;
+	font-weight: bold;
+}
+
+.load{
+	text-decoration: none;
+	color: #000;
+	margin-bottom: 20px;
+	margin-left: 20px;
+}
+
+.red-button{
+	margin-left: 20px;
+}
+
+.page-modalone{
+	width: 300px;
+	height: 150px;
+	background-color: paleturquoise;
+	text-align: center;
+	padding-top: 50px;
+}
+
+h1{
+	color: plum;
+	font-weight: bold;
+}
+
+#close-bnt{
+	margin-top: 60px;
+}

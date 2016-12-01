@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<script src="../lib/sea.js" type="application/javascript"></script>
+		<script src="../lib/seajs-text.js" type="application/javascript"></script>
+	</head>
+	<body>
+		<a href="#" class="qf-button submit">提交文件</a><br />
+		<a href="javascript:;" class="gray-button load">登录</a><br />
+		<p class="red-button">重置</p>
+		<div class="page-modalone" id="abc">
+			<h1>Hello World!</h1>
+			<a href="#" class="gray-button load" id="close-bnt">关闭</a>
+		</div>
+	</body>
+	<script>
+		seajs.config({
+			//设置路径，方便跨目录调用
+			paths: {
+				'cdn': 'http://cdn.bootcss.com',
+				'components': 'http://localhost:3000/components',
+				'page': 'http://localhost:3000/page',
+				'lib': 'http://localhost:3000/lib'
+			},
+			
+			//设置别名，方便调用
+			alias: {
+				"jquery": "cdn/jquery/3.1.1/jquery.js",
+				'button': 'components/button/button.js',
+				'testcss': 'page/css/test.css',
+				'shade': 'components/shade/shade.js'
+			}
+		})
+	</script>
+	<script>
+		seajs.use('page/js/test.js') 
+		
+	</script>
+</html>

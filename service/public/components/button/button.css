@@ -1,0 +1,40 @@
+/*
+ *此文件是按钮组件样式
+ * 
+ * */
+
+/*qf背景为绿色的按钮的公用前缀*/
+
+.qf-button{
+	display: inline-block;
+	padding: 8px 15px;
+	background-color: palegreen;
+	border: 2px solid palevioletred;
+	border-radius: 5px;
+	font-size: 14px;
+}
+
+
+/*背景为灰色按钮的前缀*/
+
+.gray-button{
+	display: inline-block;
+	padding: 3px 6px;
+	background-color: lightgrey;
+	border: 2px solid darkgray;
+	border-radius: 3px;
+	font-size: 12px;
+}
+
+/*背景为红色按钮的前缀*/
+
+.red-button{
+	display: inline-block;
+	padding: 8px 15px;
+	background-color: red;
+	color: #fff;
+	border-radius: 5px;
+	font-size: 14px;
+	cursor: pointer;
+}
+
